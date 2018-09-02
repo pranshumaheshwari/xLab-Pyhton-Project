@@ -1,0 +1,25 @@
+from flask_wtf import FlaskForm
+from wtforms import StringField, SelectField
+
+class Data(FlaskForm):
+    x1 = StringField()
+    x2 = StringField()
+    x3 = StringField()
+    x4 = StringField()
+    x5 = StringField()
+    x6 = StringField()
+    x7 = StringField()
+    x8 = StringField()
+    x9 = StringField()
+    x10 = StringField()
+    y1 = StringField()
+    y2 = StringField()
+    y3 = StringField()
+    y4 = StringField()
+    y5 = StringField()
+    y6 = StringField()
+    y7 = StringField()
+    y8 = StringField()
+    y9 = StringField()
+    y10 = StringField()
+    c = SelectField('Type',choices=[('yvx','Y vs X'),('bar','Bar'),('hist','Histogram'),('sp','Scatter Plot'),('pie','Pie Chart')])
