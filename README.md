@@ -1,7 +1,12 @@
 # xLab-Python-Project
-Just run the index.py file with python. <br>
-# Prerequisite
+To run do:<br>
+python index.py <br>
+# Requirements
+Do the follwing in Ubuntu:
 <ul>
-  <li>Flask</li>
-  <li>Matplotlib</li>
+  <li>sudo apt install python</li>
+  <li>sudo apt install matplotlib</li>
+  <li>pip install flask</li>
+  <li>pip install flask-wtf</li>
+  <li>pip install matplotlib</li>
 </ul>
